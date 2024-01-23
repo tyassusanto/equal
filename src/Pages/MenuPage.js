@@ -45,14 +45,14 @@ const MenuPage = () => {
             </div>
             {/* {datas.map((data, index) = (
                     ))} */}
-                <div className='category p-3'>
-                    <div key={index} className="flex font-semibold">
-                        <div className='mx-1'></div>
-                        <div className='mx-1'>Best Seller</div>
-                        <div className='mx-1'>Coffee</div>
-                        <div className='mx-1'>Cold Brew</div>
-                    </div>
+            <div className='category p-3'>
+                <div className="flex font-semibold">
+                    <div className='mx-1'></div>
+                    <div className='mx-1'>Best Seller</div>
+                    <div className='mx-1'>Coffee</div>
+                    <div className='mx-1'>Cold Brew</div>
                 </div>
+            </div>
             <div className='mainMenu px-4 bg-blue-200 overflow-y-scroll'>
                 Coffee
                 <MenuCard />
